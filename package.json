@@ -1,0 +1,34 @@
+{
+  "name": "ng4-preload",
+  "version": "1.0.0",
+  "description": "A preload module for ng2 and ng4.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manxiaoboo/ng4-preloader.git"
+  },
+  "keywords": [
+    "preload",
+    "ng",
+    "angular2",
+    "angular4"
+  ],
+  "author": "xbman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manxiaoboo/ng4-preloader/issues"
+  },
+  "homepage": "https://github.com/manxiaoboo/ng4-preloader#readme",
+  "dependencies": {
+    "@angular/common": "^2.4.9",
+    "@angular/core": "^2.4.9",
+    "rxjs": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.35",
+    "typescript": "^2.2.1"
+  }
+}
