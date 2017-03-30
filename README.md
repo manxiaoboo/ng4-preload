@@ -7,6 +7,7 @@
 
 <h2>Use 使用</h2>
 <h3>Import Module. 导入模块</h3>
+
 ```javascript
   import { PreLoaderModule } from "ng4-preload";
     @NgModule({
@@ -17,6 +18,7 @@
     })
 ```
 <h3>Providers Service. 声明Service</h3>
+
 ```javascript
   import { PreLoaderService } from "ng4-preload";
     @NgModule({
@@ -25,6 +27,7 @@
     })
 ```
 <h3>Add Tag. 添加标签</h3>
+
 ```html
 <pre-loader [mintime]="6000" [text]="'Loading ...'" [fontsize]="30" [fontweight]="500" [fontcolor]="'#fff'" [background]="'#000'">
     <span>Loading ...</span>
@@ -32,6 +35,7 @@
 ```
 
 <h3>Start & End. 开始和结束</h3>
+
 ```javascript
 import { PreLoaderService } from "ng4-preload";
  constructor(private router: Router,private preloaderservice:PreLoaderService) {
