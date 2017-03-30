@@ -48,6 +48,7 @@ import { PreLoaderService } from "ng4-preload";
 
 
 <h2>Parameters. 参数</h2>
+
 * mintime: minimum millisecond you want(default 5000 millisecond, and you could input 0). <br>您所期望的最低加载时间（默认为5000毫秒，您可以输入0）。
 * text: Loading text you want(default is 'Loading ...'). <br>您所期望的Loading文字（默认为'Loading ...'）。
 * fontsize: the font size. <br>文字大小。
