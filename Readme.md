@@ -20,4 +20,4 @@ import { PreLoaderService } from "ng4-preload";<br>
     &nbsp;&nbsp;&nbsp;&nbsp;providers: [PreLoaderService]<br>
 })<br>
 <h3>Add Tag. 添加标签</h3>
-\<pre-loader [mintime]="6000" [text]="'We are preparing the data ...'" [fontsize]="30" [fontweight]="500" [fontcolor]="'#fff'" [background]="'#000'">\<span>loading ...\</span>\</pre-loader>
+<pre-loader [mintime]="6000" [text]="'We are preparing the data ...'" [fontsize]="30" [fontweight]="500" [fontcolor]="'#fff'" [background]="'#000'"><span>loading ...</span></pre-loader>
