@@ -4,6 +4,7 @@
 <h2>Install 安装</h2>
 &nbsp;&nbsp;&nbsp;&nbsp;npm install ng4-preload --save
 <h2>Use 使用</h2>
+  (1) import Module. 导入模块<br>
   import { PreLoaderModule } from "ng4-preload";<br>
   
   @NgModule({<br>
@@ -11,4 +12,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ...,<br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PreLoaderModule<br>
   &nbsp;&nbsp;&nbsp;&nbsp;]<br>
+})<br>
+(2) providers service. 声明service<br>
+import { PreLoaderService } from "ng4-preload";<br>
+@NgModule({
+    &nbsp;&nbsp;&nbsp;&nbsp;...,
+    &nbsp;&nbsp;&nbsp;&nbsp;providers: [PreLoaderService]
 })<br>
