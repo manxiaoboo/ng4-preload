@@ -29,6 +29,7 @@
 <h3>Add Tag. 添加标签</h3>
 
 ```html
+//add tag near your <route-let> or anywhere you can sure it will run.  在你的<route-let>附近插入这个标签，或者你确信它可以运行的任何地方。
 <pre-loader [mintime]="6000" [text]="'Loading ...'" [fontsize]="30" [fontweight]="500" [fontcolor]="'#fff'" [background]="'#000'">
     <span>Loading ...</span>
 </pre-loader>
